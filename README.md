@@ -2,7 +2,7 @@
     le premier jet du travail ne prend pas en compte (très peu) de Js, mais plutôt un travail de révision HTML, CSS
     le site n'est pas figé mais en perpétuel modification au fur et à mesure de l'avancement de la formation
 
-![La page d'accueil du portfolio à la date du 01 avril 2020]
+![La page d'accueil du portfolio à la date du 01 avril 2020](preview.png)
 
 **Langages : **
 
