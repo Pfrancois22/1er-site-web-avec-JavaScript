@@ -1,0 +1,15 @@
+git config --global http.proxy http://192.168.2.1:8080
+
+Hi All,
+Issue is resolved now. This was happening because I was behind a corporate proxy. I used below commnad to resolve the issue
+
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+
+Thanks
+
+https://github.com/desktop/desktop/issues/4872
+
+
+
+
+je t'entends plus
