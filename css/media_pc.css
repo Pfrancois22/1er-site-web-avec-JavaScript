@@ -1,0 +1,103 @@
+
+@media (min-width: 780px){
+
+
+    .container{
+        height: 100vh;
+    }
+    
+ 
+header img{
+    width: 100%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+header .toto {
+    display: block;
+}
+
+/*=================================================================================================================*/
+        
+    main{
+        background: url(../img/bulb.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .portrait{
+        width: 10%;       
+    }
+    
+    main h2{       
+       margin: 1% 0;
+    }
+    
+/*=================================================================================================================*/
+/*puzzle
+ /*=================================================================================================================*/  
+ 
+.blocPuzzle{   
+    margin: 5%;
+}
+
+.box {
+    width: 25vmin;
+    height: 25vmin;
+}
+
+.piece {
+    position: absolute;
+    width: 11.6vmin;
+    height: 11.6vmin;    
+}
+
+.piece:nth-child(1):hover {
+    position: absolute;
+    width: 15vmin;
+    height: 15vmin;    
+}
+
+.piece:nth-child(2):hover {
+    position: absolute;
+    width: 15vmin;
+    height: 15vmin;
+}
+
+.piece:nth-child(3):hover {
+    position: absolute;
+    width: 15vmin;
+    height: 15vmin;
+}
+
+.piece:nth-child(4):hover {
+    position: absolute;
+    width: 15vmin;
+    height: 15vmin;
+}
+
+.puzzle {
+    width: 15vmin;
+    height: 15vmin;
+}
+
+.puzzle::before {
+	width: 15vmin;
+	height: 15vmin;
+	background-size: 155.264%;
+}
+
+/*==================================================================*/
+    footer{
+     
+    }
+
+
+
+
+}

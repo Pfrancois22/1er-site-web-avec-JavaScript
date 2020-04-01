@@ -1,0 +1,130 @@
+/*
+couleur https://htmlcolorcodes.com/fr/tableau-de-couleur/tableau-de-couleur-design-plat/
+*/
+
+/*==================================================================*/
+/*général
+/*==================================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1%;
+}
+
+
+/*==================================================================*/
+/*header
+/*==================================================================*/
+
+header{
+    /* margin-bottom: 5%; */
+    
+}
+
+
+.logo{
+    width: 12%;
+}
+
+.nav1{
+   display: flex;
+   justify-content: space-around;
+}
+.nav1 a:last-child img{
+    display: block;
+    margin-left: auto;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*==================================================================*/
+/*main
+/*==================================================================*/
+
+main{
+    /* background-color: seagreen; */
+    background-image: url(../img/fond1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5% 2%;
+}
+
+.portrait{
+    overflow: hidden;
+    width: 40%;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 2px 2px 8px rgba(49, 49, 49, 0.9); 
+}
+
+main h2{
+    align-self: center;
+    text-align: center;
+    margin: 5% 0;
+}
+
+main h3{
+    margin: 0 0 1% 0.5%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+main p{
+    margin: 0 0 1% 0;
+}
+
+main article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2% auto;
+    padding: 2% 4%;
+    box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+main:last-child img{
+    
+}
+
+.imgCode{
+   align-self: center;
+   margin: 2% 0;
+}
+
+
+/*==================================================================*/
+/*footer
+/*==================================================================*/
+footer{
+    background-color: sandybrown;
+}
