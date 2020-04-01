@@ -37,10 +37,10 @@ body{
 /*header
 /*==================================================================*/
 
-header{
-    /* margin-bottom: 5%; */
+/* header{
+  
     
-}
+} */
 
 
 .logo{
@@ -110,10 +110,6 @@ main article{
     padding: 2% 4%;
     box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.2);
 
-}
-
-main:last-child img{
-    
 }
 
 .imgCode{
