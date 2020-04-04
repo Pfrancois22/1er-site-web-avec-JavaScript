@@ -1,5 +1,5 @@
 
-@media (min-width: 780px){
+@media (min-width: 900px){
 
 
     .container{
@@ -12,10 +12,10 @@ header img{
 }
 
 header h1{
-    text-align: center;
+    /* text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    font-style: italic;
+    font-style: italic; */
     
 }
 
@@ -25,19 +25,101 @@ header .toto {
 
 /*=================================================================================================================*/
         
-    main{
-        background: url(../img/bulb.jpg) no-repeat center center;
-        background-size: cover;
-    }
+main{
+    background: url(../img/bulb-transparent.jpg) no-repeat center center;
+    background-size: cover;
     
-    .portrait{
-        width: 10%;       
-    }
-    
-    main h2{       
-       margin: 1% 0;
-    }
-    
+
+}
+
+.portrait{
+    width: 10%;       
+}
+
+
+.pageCode{
+    display: flex;
+    flex-direction: column;
+}
+
+.code{
+    display: flex;
+    flex-direction: row;
+}
+
+.blocCode{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.blocArticles{
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 6% 0 3%;
+}
+
+aside{
+    margin-right: 3%;
+}
+
+main h2{   
+    /* background-color: brown;     */
+    margin: 1% 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+main h3, h4{
+    /* background-color: coral; */
+    width: 50%;
+    margin: 0 0 3% 0.5%;
+    padding: 1% 5% 1% 3%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid gray;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) ;
+}
+
+h3::first-letter, h4::first-letter{
+    font-size: 1.8rem;
+    padding-right: 0.05rem;
+    color: rgb(1, 15, 15);
+    text-shadow: darkred 1px 1px 1px;
+}
+
+
+main p{
+    /* background-color: burlywood; */
+    margin: 0 0 1% 0;
+
+}
+
+main article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2% auto;
+    padding: 2% 4%;
+    box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.explicationCode{
+    padding: 0 1%;
+
+}
+.imgCode{
+   align-self: center;
+   margin: 2% 0;
+}
+
+.imgCode figcaption{
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: right;
+    margin-right: 2%;
+}
+
 /*=================================================================================================================*/
 /*puzzle
  /*=================================================================================================================*/  
