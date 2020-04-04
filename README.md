@@ -9,4 +9,4 @@
     -HTML
     -CSS
 
-    -JAVASCRIPT (*ici le JavaScript du menu hamburger même si je sais le décoder, je l'ai récupérer).
+    -JAVASCRIPT (*ici le JavaScript du menu hamburger est récupéré sur internet comme tout le javascript du site d'ailleur, même si je sais le décoder, je ne sais pas le faire !!).
